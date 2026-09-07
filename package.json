@@ -1,14 +1,20 @@
 {
   "name": "black-dragon-md",
   "version": "1.0.0",
-  "description": "Official Black Dragon MD WhatsApp Bot Owned by Madura Dilshan",
+  "description": "Official Black Dragon MD WhatsApp Bot",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "^6.6.0",
-    "pino": "^8.19.0",
+    "@whiskeysockets/baileys": "^6.7.18",
+    "axios": "^1.8.4",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "pino": "^9.6.0",
     "qrcode-terminal": "^0.12.0"
+  },
+  "engines": {
+    "node": ">=20"
   }
 }
